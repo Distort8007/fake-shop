@@ -42,8 +42,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: fakeshop
-replicas: 3
 spec:
+  replicas: 3
   selector:
     matchLabels:
       app: fakeshop
